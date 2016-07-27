@@ -31,13 +31,10 @@ It is difficult to get precompiled Blasr, and if you do sometimes it will not wo
 Getting the older source is somewhat tricky, since you have to download older branches from the Pacbio github repos. This is
 how you do this:
 
-  `git clone https://github.com/PacificBiosciences/blasr/ --recursive
-  
-  cd blasr
-  
-  git checkout remotes/origin/2015legacy
-  
-  make`
+  `git clone https://github.com/PacificBiosciences/blasr/ --recursive`
+  `cd blasr`
+  `git checkout remotes/origin/2015legacy`
+  `make`
   
 
 Once this is done your compiled blasr should be in the alignment/bin
