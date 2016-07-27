@@ -1,6 +1,6 @@
-# PbSuite 14.7.14 and greater with new Blasr (>=5.3) versions 
+# PbSuite 14.7.14 and greater with new Blasr (>=5.3) versions
 
-##Time spend for the work-around: 
+##Time spend for the work-around:
 
 1 working day, mainly spent in figuring out the reason of the problem, trying different libraries, compiling, running tests etc etc.
 
@@ -28,13 +28,13 @@ Step 1:
 **Downloading the older Blasr version.**
 
 It is difficult to get precompiled Blasr, and if you do sometimes it will not work, therefore you have to compile it yourself.
-Getting the older source is somewhat tricky, since you have to download older branches from the Pacbio github repos. This is 
+Getting the older source is somewhat tricky, since you have to download older branches from the Pacbio github repos. This is
 how you do this:
 
-'git clone https://github.com/PacificBiosciences/blasr/ --recursive
-cd blasr
-git checkout remotes/origin/2015legacy
-make'
+  git clone https://github.com/PacificBiosciences/blasr/ --recursive
+  cd blasr
+  git checkout remotes/origin/2015legacy
+  make
 
 Once this is done your compiled blasr should be in the alignment/bin
 
@@ -44,8 +44,8 @@ Then do:
 
 If everything was ok then the version should be 1.3.1 . Which is great.
 
-*I have noticed that different blasr versions will give different results, therefore you 
-might want to look more in to other branches to get another version* 
+*I have noticed that different blasr versions will give different results, therefore you
+might want to look more in to other branches to get another version*
 
 Here I assume that hdf5 is already installed, if not follow the instructions on
 blasr.install.sh, which are the guidelines I have copied from the Pacbio repo.
@@ -73,4 +73,3 @@ Run your own data and evaluate the result
 https://sourceforge.net/p/pb-jelly/discussion
 
 https://github.com/PacificBiosciences/blasr/wiki/Step-by-step-blasr-installation-example
-
