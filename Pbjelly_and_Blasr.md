@@ -32,8 +32,11 @@ Getting the older source is somewhat tricky, since you have to download older br
 how you do this:
 
   `git clone https://github.com/PacificBiosciences/blasr/ --recursive`
+  
   `cd blasr`
+  
   `git checkout remotes/origin/2015legacy`
+  
   `make`
   
 
