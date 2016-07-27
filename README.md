@@ -4,6 +4,6 @@ Here I keep notes on different work arounds for bugs/problems I run into. Most o
 
 Please use with caution and at your own risk.
 
--lambros
+Lambros
 
 
